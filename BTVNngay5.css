@@ -5,23 +5,23 @@
   }
   
     html {
-    font-size: 10px;
-    font-family: "Roboto","Arial",sans-serif;
+      font-size: 10px;
+      font-family: "Roboto","Arial",sans-serif;
     }
   
 
     .youtube-nav ul{
-    display: flex;
-    flex-flow: row wrap;
-    list-style: none;
-    margin: 20px 20px 20px 50px;
+      display: flex;
+      flex-flow: row wrap;
+      list-style: none;
+      margin: 20px 20px 20px 50px;
     }
     .youtube-nav ul li {
-    padding: 5px 10px;
-    border-radius: 10px;
-    background-color: rgb(212, 209, 209);
-    margin-right: 12px;
-    margin-bottom: 12px;
+      padding: 5px 10px;
+      border-radius: 10px;
+      background-color: rgb(212, 209, 209);
+      margin-right: 12px;
+      margin-bottom: 12px;
     }
     
     .youtube-nav ul li a {
@@ -38,41 +38,41 @@
     color: white;
     }
     .youtube-ad {
-    position: relative;
-    background: #000000;
-    color: white;
-    margin-left: 30px;
-    margin-right: 20px;
-    padding: 20px;
+      position: relative;
+      background: #000000;
+      color: white;
+      margin-left: 30px;
+      margin-right: 20px;
+      padding: 20px;
     }
   
     .youtube-ad-close {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    font-size: 16px;
-    text-decoration: none;
-    color: white;
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      font-size: 16px;
+      text-decoration: none;
+      color: white;
     }
   
     .youtube-ad-title {
-    font-size: 32px;
+      font-size: 32px;
     }
   
     .youtube-ad-description {
-    font-size: 18px;
-    margin-top: 10px;
+      font-size: 18px;
+      margin-top: 10px;
     }
   
     .youtube-ad .youtube-ad-button {
-    display: inline-block;
-    color: white;
-    padding: 6px;
-    border-radius: 20px;
-    font-size: 14px;
-    text-decoration: none;
-    border:1px solid white;
-    margin-top: 30px;
+      display: inline-block;
+      color: white;
+      padding: 6px;
+      border-radius: 20px;
+      font-size: 14px;
+      text-decoration: none;
+      border:1px solid white;
+      margin-top: 30px;
     }
     .youtube-videolist {
         padding: 20px 40px;
@@ -85,8 +85,8 @@
       }
       
       .youtubevideo-item {
-        flex: 0 1 23%;
-        margin-bottom: 20px;
+        flex: 1 0 27%;
+        margin-bottom: 25px;
       }
       
       .youtubevideo-thumbnail {
@@ -139,4 +139,5 @@
       .youtubevideo-submeta .youtubevideo-view {
         margin-right: 20px;
       }
+    
   
